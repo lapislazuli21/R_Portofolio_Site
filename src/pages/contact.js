@@ -26,7 +26,7 @@ const contact = () => {
                         </div>
                     </div>
                     <div className='w-full h-[720px]'>
-                        <img src='/images/profile/contact.jpg' className='rounded-xl w-3/4 h-full mx-auto' />
+                        <img src='/images/profile/contact1.jpg' className='rounded-xl w-3/4 h-full mx-auto' />
                     </div>
                 </div>
             </Layout>

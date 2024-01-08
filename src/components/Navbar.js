@@ -49,7 +49,7 @@ const Navbar = () => {
 
             <Link href="/" className=''>
                 <h2 className='text-3xl text-light'>Rajvi Padia</h2>
-                <h2 className='text-3xl text-primary'>Multidisciplinary Designer</h2>
+                <h2 className='text-3xl text-primary'>Multidisciplinary Projects</h2>
             </Link>
 
             <div className='flex flex-row'>

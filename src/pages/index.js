@@ -15,13 +15,18 @@ export default function Home() {
 
     // Object with parameters
     const params = {
-      slidesPerView: 4,
-      spaceBetween: 80,
+      spaceBetween: 100,
       breakpoints: {
-        768: {
+        1535: {
           slidesPerView: 4,
         },
-        496: {
+        1023: {
+          slidesPerView: 3,
+        },
+        767: {
+          slidesPerView: 2,
+        },
+        639: {
           slidesPerView: 1,
         },
       },
@@ -44,12 +49,10 @@ export default function Home() {
       <main className="flex items-center text-dark dark:text-light w-full min-h-screen overflow-y-hidden bg-dark border-dark">
         <Layout className='py-4 md:pt-12 sm:pt-8 !bg-dark'>
           <swiper-container init="false" ref={swiperRef}>
-            <swiper-slide ><Slide image={'/images/projects/FMP.jpg'} title={'Card 1'} body={'Body 1'} /></swiper-slide>
-            <swiper-slide><Slide image={'/images/projects/FMP2.jpg'} title={'Card 1'} body={'Body 1'} /></swiper-slide>
-            <swiper-slide><Slide image={'/images/projects/FMP3.jpg'} title={'Card 1'} body={'Body 1'} /></swiper-slide>
-            <swiper-slide><Slide image={'/images/projects/FMP4.jpg'} title={'Card 1'} body={'Body 1'} /></swiper-slide>
-            <swiper-slide><Slide image={'/images/projects/FMP5.png'} title={'Card 1'} body={'Body 1'} /></swiper-slide>
-            <swiper-slide><Slide image={'/images/projects/FMP6.jpg'} title={'Card 1'} body={'Body 1'} /></swiper-slide>
+            <swiper-slide><Slide image={'/images/projects/MI7.jpg'} title={'Card 1'} body={'Body 1'} /></swiper-slide>
+            <swiper-slide><Slide image={'/images/projects/MI8.png'} title={'Card 1'} body={'Body 1'} /></swiper-slide>
+            <swiper-slide><Slide image={'/images/projects/MI4.png'} title={'Card 1'} body={'Body 1'} /></swiper-slide>
+            <swiper-slide><Slide image={'/images/projects/MI6.png'} title={'Card 1'} body={'Body 1'} /></swiper-slide>
             <swiper-slide><Slide image={'/images/projects/MI.png'} title={'Card 1'} body={'Body 1'} /></swiper-slide>
             <swiper-slide><Slide image={'/images/projects/MI2.jpg'} title={'Card 1'} body={'Body 1'} /></swiper-slide>
             <swiper-slide><Slide image={'/images/projects/MI3.jpg'} title={'Card 1'} body={'Body 1'} /></swiper-slide>
