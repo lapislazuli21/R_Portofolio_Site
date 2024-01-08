@@ -1,15 +1,13 @@
 import React from 'react'
-import { Card, CardHeader, CardMedia } from "@mui/material"
+import { Card, CardMedia } from "@mui/material"
 
-const Slide = ({ image, title, body }) => {
+const Slide = ({ image }) => {
     return (
-        <Card sx={{ width: 350, height: 600, bgcolor: '#C183C8', borderRadius: 4 }}>
+        <Card sx={{ width: 100, height: 100, borderRadius: 4 }}>
             <CardMedia
-                sx={{ height: "100%", backgroundSize: 'cover', }}
+                sx={{ width: "100%", height: "100%", backgroundSize: 'cover', alignItems: 'center', }}
                 image={image}
-                title={title}
             />
-            <CardHeader>{body}</CardHeader>
         </Card>
     )
 }
