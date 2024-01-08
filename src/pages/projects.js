@@ -19,9 +19,12 @@ const Projects = () => {
 
         // Object with parameters
         const params = {
+            spaceBetween: 10,
             slidesPerView: 1,
             centeredSlides: true,
-            autoplay: true,
+            autoplay: {
+                pauseOnMouseEnter: true,
+            },
         };
 
         // Assign it to swiper element
