@@ -18,7 +18,9 @@ export default function Home() {
       spaceBetween: 100,
       slidesPerView: 1,
       centeredSlides: true,
-      autoplay: true,
+      autoplay: {
+        pauseOnMouseEnter: true,
+      },
       freemode: true,
     };
 
