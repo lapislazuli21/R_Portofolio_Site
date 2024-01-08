@@ -1,88 +1,65 @@
 import React from "react";
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import { register } from 'swiper/element/bundle';
+import { useEffect, useRef } from 'react';
+import Slide from '@/components/Slide';
 
 
-const projects = () => {
-    const projects = [
-        {
-            img: '/images/projects/MI.png',
-            title: "devlog",
-            desc: " A multi author blog. Built with Node.js, MongoDB, React, Redux and Tailwind CSS ",
-            live: "https://devlogg.onrender.com/",
-            code: "https://github.com/Coderamrin/devlog",
-        },
-        {
-            img: '/images/projects/MI2.jpg',
-            title: "uilogs",
-            desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap, JQuery and JavaScript",
-            live: "https://uilogs.xyz/",
-            code: "https://github.com/Coderamrin/html-templates",
-        },
-        {
-            img: '/images/projects/MI3.jpg',
-            title: "css projects",
-            desc: "Frontend Mentor challange directory, solved with vanilla CSS",
-            live: "https://build-10-css-projects.netlify.app/",
-            code: "https://github.com/Coderamrin/build-10-css-projects",
-        },
-        {
-            img: '/images/projects/MI4.png',
-            title: "get Inspirred",
-            desc: "Quote search app. Used Quotable API for the quotes and React, Redux on the frontend",
-            live: "https://get-inspirred.netlify.app/",
-            code: "https://github.com/Coderamrin/get-inspired",
-        },
-    ];
+const Projects = () => {
+
+    const swiperRef = useRef(null);
+    useEffect(() => {
+        // Register Swiper web component
+        register();
+
+        // Object with parameters
+        const params = {
+            slidesPerView: 1,
+            centeredSlides: true,
+        };
+
+        // Assign it to swiper element
+        Object.assign(swiperRef.current, params);
+
+        // initialize swiper
+        swiperRef.current.initialize();
+    }, []);
 
     return (
-        <section className="bg-dark text-light p-16" id="projects">
+        <section className="bg-dark text-light p-16 pb-32" id="projects">
             <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
                 <div className="about-info mx-auto mb-5">
                     <h2 className="text-4xl mx-auto font-semibold text-alt mb-5 w-[180px] pb-2">
                         Projects
                     </h2>
 
-                    <p className="pb-5 px-2 text-2xl">
-                        These are some of my best projects.
+                    <p className="px-2 font-semibold text-secondary text-2xl">
+                        Eco-Kalash: A responsible alternative
                     </p>
                 </div>
-
-                <div className="about-img"></div>
             </div>
 
-            <div className="projects container mx-auto grid md:grid-cols-3 gap-10">
-                {projects.map((project, i) => {
-                    return (
-                        <div className="relative mx-auto" key={i}>
-                            <img src={project.img} alt={project.title} width='1080px' height='480px' />
-                            <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
-                                <p className="py-5 text-center font-bold px-2 text-white">
-                                    {project.desc}
-                                </p>
-
-                                <div className="mx-auto">
-                                    <a
-                                        href={project.live}
-                                        className="px-5 py-2 bg-secondary hover:bg-blue-600 mr-5 font-bold"
-                                    >
-                                        Live
-                                    </a>
-                                    <a
-                                        href={project.code}
-                                        className="px-5 py-2 bg-secondary hover:bg-blue-800 font-bold"
-                                    >
-                                        Code
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    );
-                })}
+            <div className="container mx-auto m-12">
+                <swiper-container init="false" ref={swiperRef}>
+                    <swiper-slide><img src='/images/projects/FMP.jpg' /></swiper-slide>
+                    <swiper-slide><img src='/images/projects/FMP2.jpg' /></swiper-slide>
+                    <swiper-slide><img src='/images/projects/FMP3.jpg' /></swiper-slide>
+                    <swiper-slide><img src='/images/projects/FMP4.jpg' /></swiper-slide>
+                    <swiper-slide><img src='/images/projects/FMP5.png' /></swiper-slide>
+                    <swiper-slide><img src='/images/projects/MI.png' /></swiper-slide>
+                    <swiper-slide><img src='/images/projects/MI2.jpg' /></swiper-slide>
+                    <swiper-slide><img src='/images/projects/MI5.jpg' /></swiper-slide>
+                    <swiper-slide><img src='/images/projects/MI7.jpg' /></swiper-slide>
+                    <swiper-slide><img src='/images/projects/MI6.png' /></swiper-slide>
+                    <swiper-slide><img src='/images/projects/MI8.png' /></swiper-slide>
+                </swiper-container>
+            </div>
+            <div className="mx-auto">
+                <img src="/images/projects/FMP6.jpg" height='290' />
             </div>
         </section>
     );
 };
 
-export default projects;
+export default Projects;

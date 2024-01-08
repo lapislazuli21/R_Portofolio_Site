@@ -23,7 +23,7 @@ export default function Home() {
         1023: {
           slidesPerView: 3,
         },
-        767: {
+        873: {
           slidesPerView: 2,
         },
         639: {
