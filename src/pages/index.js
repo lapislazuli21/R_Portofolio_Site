@@ -18,6 +18,8 @@ export default function Home() {
       spaceBetween: 100,
       slidesPerView: 1,
       centeredSlides: true,
+      autoplay: true,
+      freemode: true,
     };
 
     // Assign it to swiper element

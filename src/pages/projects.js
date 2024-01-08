@@ -22,6 +22,7 @@ const Projects = () => {
         const params = {
             slidesPerView: 1,
             centeredSlides: true,
+            autoplay: true,
         };
 
         // Assign it to swiper element
@@ -39,9 +40,12 @@ const Projects = () => {
                         Projects
                     </h2>
 
-                    <p className="px-2 font-semibold text-center cursor-pointer underline text-secondary text-3xl" onClick={handleClick}>
+                    <p data-tooltip-target="tooltip-bottom" className="px-2 font-semibold text-center cursor-pointer underline text-secondary text-3xl" onClick={handleClick}>
                         Eco-Kalash: A responsible alternative
                     </p>
+                    <div data-tooltip="tooltip-bottom" data-tooltip-placement="bottom" className="absolute z-50 whitespace-normal break-words rounded-lg bg-alt py-1.5 px-3 font-sans text-sm font-normal text-white focus:outline-none">
+                        Click for project description
+                    </div>
                 </div>
             </div>
 
@@ -61,10 +65,6 @@ const Projects = () => {
                                     supporting elements are crafted from reused materials, exemplifying a dedication to
                                     responsible consumption and a celebration of India&#39;s cultural heritage through a
                                     contemporary lens.
-                                </p>
-                                <p className="py-4 text-center font-semibold px-8 text-dark">
-                                    Main Pictures: 8
-                                    Miro board pictures: 6
                                 </p>
                                 <p className="py-4 text-center font-semibold px-8 text-wrap text-light">
                                     Project type- MA Art and Design: Interdisciplinary Practices
@@ -92,10 +92,7 @@ const Projects = () => {
                                     responsible consumption and a celebration of India&#39;s cultural heritage through a
                                     contemporary lens.
                                 </p>
-                                <p className="py-4 text-center font-semibold px-8 text-dark">
-                                    Main Pictures: 8
-                                    Miro board pictures: 6
-                                </p>
+
                                 <p className="py-4 text-center font-semibold px-8 text-wrap text-light">
                                     Project type- MA Art and Design: Interdisciplinary Practices
                                     Final Major Project- Ecological Design
@@ -122,10 +119,7 @@ const Projects = () => {
                                     responsible consumption and a celebration of India&#39;s cultural heritage through a
                                     contemporary lens.
                                 </p>
-                                <p className="py-4 text-center font-semibold px-8 text-dark">
-                                    Main Pictures: 8
-                                    Miro board pictures: 6
-                                </p>
+
                                 <p className="py-4 text-center font-semibold px-8 text-wrap text-light">
                                     Project type- MA Art and Design: Interdisciplinary Practices
                                     Final Major Project- Ecological Design
@@ -152,10 +146,7 @@ const Projects = () => {
                                     responsible consumption and a celebration of India&#39;s cultural heritage through a
                                     contemporary lens.
                                 </p>
-                                <p className="py-4 text-center font-semibold px-8 text-dark">
-                                    Main Pictures: 8
-                                    Miro board pictures: 6
-                                </p>
+
                                 <p className="py-4 text-center font-semibold px-8 text-wrap text-light">
                                     Project type- MA Art and Design: Interdisciplinary Practices
                                     Final Major Project- Ecological Design
@@ -182,10 +173,7 @@ const Projects = () => {
                                     responsible consumption and a celebration of India&#39;s cultural heritage through a
                                     contemporary lens.
                                 </p>
-                                <p className="py-4 text-center font-semibold px-8 text-dark">
-                                    Main Pictures: 8
-                                    Miro board pictures: 6
-                                </p>
+
                                 <p className="py-4 text-center font-semibold px-8 text-wrap text-light">
                                     Project type- MA Art and Design: Interdisciplinary Practices
                                     Final Major Project- Ecological Design
@@ -243,10 +231,7 @@ const Projects = () => {
                                     responsible consumption and a celebration of India&#39;s cultural heritage through a
                                     contemporary lens.
                                 </p>
-                                <p className="py-4 text-center font-semibold px-8 text-dark">
-                                    Main Pictures: 8
-                                    Miro board pictures: 6
-                                </p>
+
                                 <p className="py-4 text-center font-semibold px-8 text-wrap text-light">
                                     Project type- MA Art and Design: Interdisciplinary Practices
                                     Final Major Project- Ecological Design
@@ -273,10 +258,7 @@ const Projects = () => {
                                     responsible consumption and a celebration of India&#39;s cultural heritage through a
                                     contemporary lens.
                                 </p>
-                                <p className="py-4 text-center font-semibold px-8 text-dark">
-                                    Main Pictures: 8
-                                    Miro board pictures: 6
-                                </p>
+
                                 <p className="py-4 text-center font-semibold px-8 text-wrap text-light">
                                     Project type- MA Art and Design: Interdisciplinary Practices
                                     Final Major Project- Ecological Design
@@ -303,10 +285,7 @@ const Projects = () => {
                                     responsible consumption and a celebration of India&#39;s cultural heritage through a
                                     contemporary lens.
                                 </p>
-                                <p className="py-4 text-center font-semibold px-8 text-dark">
-                                    Main Pictures: 8
-                                    Miro board pictures: 6
-                                </p>
+
                                 <p className="py-4 text-center font-semibold px-8 text-wrap text-light">
                                     Project type- MA Art and Design: Interdisciplinary Practices
                                     Final Major Project- Ecological Design
@@ -333,10 +312,7 @@ const Projects = () => {
                                     responsible consumption and a celebration of India&#39;s cultural heritage through a
                                     contemporary lens.
                                 </p>
-                                <p className="py-4 text-center font-semibold px-8 text-dark">
-                                    Main Pictures: 8
-                                    Miro board pictures: 6
-                                </p>
+
                                 <p className="py-4 text-center font-semibold px-8 text-wrap text-light">
                                     Project type- MA Art and Design: Interdisciplinary Practices
                                     Final Major Project- Ecological Design
@@ -363,10 +339,7 @@ const Projects = () => {
                                     responsible consumption and a celebration of India&#39;s cultural heritage through a
                                     contemporary lens.
                                 </p>
-                                <p className="py-4 text-center font-semibold px-8 text-dark">
-                                    Main Pictures: 8
-                                    Miro board pictures: 6
-                                </p>
+
                                 <p className="py-4 text-center font-semibold px-8 text-wrap text-light">
                                     Project type- MA Art and Design: Interdisciplinary Practices
                                     Final Major Project- Ecological Design

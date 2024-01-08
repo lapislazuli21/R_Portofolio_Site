@@ -8,6 +8,10 @@ export default function Document() {
         <Main />
         <NextScript />
       </body>
+      <script
+        type="module"
+        src="https://unpkg.com/@material-tailwind/html@latest/scripts/tooltip.js"
+      ></script>
     </Html>
   )
 }
