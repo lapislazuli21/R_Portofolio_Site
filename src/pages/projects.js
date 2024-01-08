@@ -4,7 +4,6 @@ import 'swiper/css/navigation';
 import { register } from 'swiper/element/bundle';
 import { useEffect, useRef } from 'react';
 
-
 const Projects = () => {
 
     const [isOpen, setIsOpen] = useState(false)
@@ -34,6 +33,7 @@ const Projects = () => {
 
     return (
         <section className="bg-dark text-light p-16 pb-32" id="projects">
+            <script type="module" src="https://unpkg.com/@material-tailwind/html@latest/scripts/tooltip.js"></script>
             <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
                 <div className="about-info mx-auto mb-5">
                     <h2 className="text-5xl mx-auto font-semibold text-center text-alt mb-5 w-[180px] pb-2">
