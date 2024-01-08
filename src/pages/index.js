@@ -24,7 +24,7 @@ export default function Home() {
       freemode: true,
     };
 
-    // Assign it to swiper element
+    // Assign it to swiper element  
     Object.assign(swiperRef.current, params);
 
     // initialize swiper
@@ -43,6 +43,8 @@ export default function Home() {
           <swiper-container init="false" ref={swiperRef}>
             <swiper-slide><img src='/images/projects/MI.png' /></swiper-slide>
             <swiper-slide><img src='/images/projects/MI2.JPG' /></swiper-slide>
+            <swiper-slide><img src='/images/projects/MI3.JPG' /></swiper-slide>
+            <swiper-slide><img src='/images/projects/MI4.png' /></swiper-slide>
             <swiper-slide><img src='/images/projects/MI5.JPG' /></swiper-slide>
             <swiper-slide><img src='/images/projects/MI6.png' /></swiper-slide>
             <swiper-slide><img src='/images/projects/MI7.JPG' /></swiper-slide>

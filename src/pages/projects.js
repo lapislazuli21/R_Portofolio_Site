@@ -107,6 +107,60 @@ const Projects = () => {
                             </div>
                             : null
                     }</swiper-slide>
+                    <swiper-slide><img src='/images/projects/MI3.JPG' />{
+                        isOpen ?
+                            <div className={` ${isOpen ? 'opacity-100' : 'opacity-0'} flex absolute left-0 right-0 top-[30px] rounded-xl bottom-0 mx-auto w-[90%] h-[90%]  bg-secondary duration-500 justify-center flex-col`}>
+                                <p className="py-4 text-center font-semibold px-8 text-dark">
+                                    This project seeks to revolutionize Indian weddings by mitigating the environmental impact
+                                    of plastic waste, specifically targeting the prevalent use of packaged drinking water bottles.
+                                    By reintroducing the traditional practice of utilizing Terracotta clay vessels, redesigned with
+                                    a modern aesthetic, and adorned with traditional Madhubani art motifs, the initiative aims
+                                    to provide an eco-friendly and visually appealing alternative. These multifunctional water
+                                    pots not only serve as vessels for guests but also double as decorative centrepieces,
+                                    reducing the need for additional environmental resources. Committed to sustainability, the
+                                    supporting elements are crafted from reused materials, exemplifying a dedication to
+                                    responsible consumption and a celebration of India&#39;s cultural heritage through a
+                                    contemporary lens.
+                                </p>
+
+                                <p className="py-4 text-center font-semibold px-8 text-wrap text-light">
+                                    Project type- MA Art and Design: Interdisciplinary Practices
+                                    Final Major Project- Ecological Design
+                                </p>
+                                <p className="py-4 text-center font-semibold px-8 text-light">
+                                    Process: Ceramics- Coiling technique; Editing tools- Adobe Photoshop, Procreate; Creative
+                                    Research
+                                </p>
+                            </div>
+                            : null
+                    }</swiper-slide>
+                    <swiper-slide><img src='/images/projects/MI4.png' />{
+                        isOpen ?
+                            <div className={` ${isOpen ? 'opacity-100' : 'opacity-0'} flex absolute left-0 right-0 top-[30px] rounded-xl bottom-0 mx-auto w-[90%] h-[90%]  bg-secondary duration-500 justify-center flex-col`}>
+                                <p className="py-4 text-center font-semibold px-8 text-dark">
+                                    This project seeks to revolutionize Indian weddings by mitigating the environmental impact
+                                    of plastic waste, specifically targeting the prevalent use of packaged drinking water bottles.
+                                    By reintroducing the traditional practice of utilizing Terracotta clay vessels, redesigned with
+                                    a modern aesthetic, and adorned with traditional Madhubani art motifs, the initiative aims
+                                    to provide an eco-friendly and visually appealing alternative. These multifunctional water
+                                    pots not only serve as vessels for guests but also double as decorative centrepieces,
+                                    reducing the need for additional environmental resources. Committed to sustainability, the
+                                    supporting elements are crafted from reused materials, exemplifying a dedication to
+                                    responsible consumption and a celebration of India&#39;s cultural heritage through a
+                                    contemporary lens.
+                                </p>
+
+                                <p className="py-4 text-center font-semibold px-8 text-wrap text-light">
+                                    Project type- MA Art and Design: Interdisciplinary Practices
+                                    Final Major Project- Ecological Design
+                                </p>
+                                <p className="py-4 text-center font-semibold px-8 text-light">
+                                    Process: Ceramics- Coiling technique; Editing tools- Adobe Photoshop, Procreate; Creative
+                                    Research
+                                </p>
+                            </div>
+                            : null
+                    }</swiper-slide>
                     <swiper-slide><img src='/images/projects/MI5.JPG' />{
                         isOpen ?
                             <div className={` ${isOpen ? 'opacity-100' : 'opacity-0'} flex absolute left-0 right-0 top-[30px] rounded-xl bottom-0 mx-auto w-[90%] h-[90%]  bg-secondary duration-500 justify-center flex-col`}>
