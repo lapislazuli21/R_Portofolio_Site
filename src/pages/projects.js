@@ -77,7 +77,7 @@ const Projects = () => {
                             </div>
                             : null
                     }</swiper-slide>
-                    <swiper-slide><img src='/images/projects/MI2.jpg' />{
+                    <swiper-slide><img src='/images/projects/MI2.JPG' />{
                         isOpen ?
                             <div className={` ${isOpen ? 'opacity-100' : 'opacity-0'} flex absolute left-0 right-0 top-[30px] rounded-xl bottom-0 mx-auto w-[90%] h-[90%]  bg-secondary duration-500 justify-center flex-col`}>
                                 <p className="py-4 text-center font-semibold px-8 text-dark">
@@ -104,7 +104,7 @@ const Projects = () => {
                             </div>
                             : null
                     }</swiper-slide>
-                    <swiper-slide><img src='/images/projects/MI5.jpg' />{
+                    <swiper-slide><img src='/images/projects/MI5.JPG' />{
                         isOpen ?
                             <div className={` ${isOpen ? 'opacity-100' : 'opacity-0'} flex absolute left-0 right-0 top-[30px] rounded-xl bottom-0 mx-auto w-[90%] h-[90%]  bg-secondary duration-500 justify-center flex-col`}>
                                 <p className="py-4 text-center font-semibold px-8 text-dark">
@@ -158,7 +158,7 @@ const Projects = () => {
                             </div>
                             : null
                     }</swiper-slide>
-                    <swiper-slide><img src='/images/projects/MI7.jpg' />{
+                    <swiper-slide><img src='/images/projects/MI7.JPG' />{
                         isOpen ?
                             <div className={` ${isOpen ? 'opacity-100' : 'opacity-0'} flex absolute left-0 right-0 top-[30px] rounded-xl bottom-0 mx-auto w-[90%] h-[90%]  bg-secondary duration-500 justify-center flex-col`}>
                                 <p className="py-4 text-center font-semibold px-8 text-dark">
