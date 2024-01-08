@@ -21,7 +21,8 @@ export default function Home() {
       autoplay: {
         pauseOnMouseEnter: true,
       },
-      freemode: true,
+      navigation: true,
+      loop: true,
     };
 
     // Assign it to swiper element  
